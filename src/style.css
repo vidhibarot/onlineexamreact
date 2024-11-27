@@ -1,0 +1,329 @@
+.add-option {
+    float: right;
+    margin-top: 10px;
+}
+
+.image-part {
+    padding-right: 16px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.description h3 {
+    font-weight: 700;
+    color: #255076;
+}
+
+.result-part {
+    border: 2px solid #876d6d;
+    border-radius: 4px;
+}
+
+.result {
+    background-color: #dce5ea;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.label {
+    margin-bottom: 0px;
+    color: #806f6f;
+    font-weight: 600;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #d1dbe1;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.accordiaan-header button {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.password {
+    position: relative;
+}
+
+.eyeicon {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 25px;
+}
+
+
+h1,
+h3,
+p {
+    margin: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main {
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover {
+    background: url(https://asset.gecdesigns.com/img/background-templates/dark-blue-background-with-the-diamond-pattern-template-sr06012408-1704699724568-cover.webp);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.user-pic {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    height: 150px;
+}
+
+.user-main-details {
+    margin-left: 254px;
+    margin-top: 0px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.user-main-details h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 4px 0px;
+}
+
+.user-main-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.user-stats {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.stat-link {
+    color: #2f3542;
+}
+
+.main .btn {
+    padding: 10px 20px;
+    background: rgb(52 37 131);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main .btn:hover {
+    background: rgb(52 37 131);
+    color: #fff;
+}
+
+.main .btn:active {
+    background: rgb(52 37 131);
+    color: #fff;
+}
+
+.user-complete-details {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.user-meta-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.user-social p,
+.user-data p,
+.user-techstack p {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.user-data {
+    margin-right: auto;
+    margin-left: 53px;
+}
+
+.user-sm-links {
+    display: flex;
+    gap: 10px;
+}
+
+.sm-link i {
+    font-size: 18px;
+    color: #555;
+}
+
+.tech-list {
+    display: flex;
+    gap: 10px;
+}
+
+.tech {
+    background-color: #f1f2f6;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.user-all-data h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.user-all-data p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.change-password {
+    margin-left: 34px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.button-start {
+    margin: 0px 5px 0px 0px
+}
+
+
+
+/* --------------------------------------New-Exam-paper----------------------------------------- */
+
+.exam-paper-start {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.question-part {
+    width: 70%;
+    padding: 30px;
+}
+
+.button-part {
+    width: 30%;
+    background-color: #dfe4f2;
+    min-height: 80vh;
+}
+
+.head {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: #4e578f;
+}
+
+.data {
+    background-color: #4241a1;
+    color: white;
+    border: 1px solid #4241a1;
+}
+
+.data2 {
+    border: 1px solid red;
+    color: red;
+}
+
+
+.completed {
+    /* background-color: rgb(33, 38, 49); */
+    color: green;
+    border: 1px solid green;
+}
+
+
+
+/* .buttonnnnnn:hover{
+  
+} */
+@media(max-width:767px) {
+    .add-option {
+        float: none;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    .image-part {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conatct {
+        width: 100%;
+    }
+
+    .info {
+        gap: 0px
+    }
+}
